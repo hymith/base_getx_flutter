@@ -1,0 +1,343 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.base_getx_flutter"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/trandan/AndroidStudioProjects/base_getx_flutter/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/Users/trandan/AndroidStudioProjects/base_getx_flutter/android/app/src/debug/AndroidManifest.xml:6:22-64
+16    <!--
+17     Required to query activities that can process text, see:
+18         https://developer.android.com/training/package-visibility?hl=en and
+19         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+20
+21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+22    -->
+23    <queries>
+23-->/Users/trandan/AndroidStudioProjects/base_getx_flutter/android/app/src/main/AndroidManifest.xml:38:5-43:15
+24        <intent>
+24-->/Users/trandan/AndroidStudioProjects/base_getx_flutter/android/app/src/main/AndroidManifest.xml:39:9-42:18
+25            <action android:name="android.intent.action.PROCESS_TEXT" />
+25-->/Users/trandan/AndroidStudioProjects/base_getx_flutter/android/app/src/main/AndroidManifest.xml:40:13-72
+25-->/Users/trandan/AndroidStudioProjects/base_getx_flutter/android/app/src/main/AndroidManifest.xml:40:21-70
+26
+27            <data android:mimeType="text/plain" />
+27-->/Users/trandan/AndroidStudioProjects/base_getx_flutter/android/app/src/main/AndroidManifest.xml:41:13-50
+27-->/Users/trandan/AndroidStudioProjects/base_getx_flutter/android/app/src/main/AndroidManifest.xml:41:19-48
+28        </intent>
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+31-->[:local_auth] /Users/trandan/AndroidStudioProjects/base_getx_flutter/build/local_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-74
+31-->[:local_auth] /Users/trandan/AndroidStudioProjects/base_getx_flutter/build/local_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-71
+32    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+32-->[:call_log] /Users/trandan/AndroidStudioProjects/base_getx_flutter/build/call_log/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-72
+32-->[:call_log] /Users/trandan/AndroidStudioProjects/base_getx_flutter/build/call_log/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-69
+33    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+33-->[:call_log] /Users/trandan/AndroidStudioProjects/base_getx_flutter/build/call_log/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-75
+33-->[:call_log] /Users/trandan/AndroidStudioProjects/base_getx_flutter/build/call_log/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-72
+34    <uses-permission android:name="android.permission.WAKE_LOCK" />
+34-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:23:5-68
+34-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:23:22-65
+35    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+35-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:24:5-79
+35-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:24:22-76
+36    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+36-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:25:5-81
+36-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:25:22-78
+37    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+37-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:26:5-77
+37-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:26:22-74
+38    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+38-->[androidx.biometric:biometric:1.1.0] /Users/trandan/.gradle/caches/transforms-3/6b121cdb6295142c821aa892d8216231/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+38-->[androidx.biometric:biometric:1.1.0] /Users/trandan/.gradle/caches/transforms-3/6b121cdb6295142c821aa892d8216231/transformed/biometric-1.1.0/AndroidManifest.xml:24:22-69
+39
+40    <permission
+40-->[androidx.core:core:1.10.1] /Users/trandan/.gradle/caches/transforms-3/0b9c903fef8d2eb2a269c36999ef4a74/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+41        android:name="com.example.base_getx_flutter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+41-->[androidx.core:core:1.10.1] /Users/trandan/.gradle/caches/transforms-3/0b9c903fef8d2eb2a269c36999ef4a74/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+42        android:protectionLevel="signature" />
+42-->[androidx.core:core:1.10.1] /Users/trandan/.gradle/caches/transforms-3/0b9c903fef8d2eb2a269c36999ef4a74/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+43
+44    <uses-permission android:name="com.example.base_getx_flutter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+44-->[androidx.core:core:1.10.1] /Users/trandan/.gradle/caches/transforms-3/0b9c903fef8d2eb2a269c36999ef4a74/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+44-->[androidx.core:core:1.10.1] /Users/trandan/.gradle/caches/transforms-3/0b9c903fef8d2eb2a269c36999ef4a74/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+45
+46    <application
+47        android:name="android.app.Application"
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.10.1] /Users/trandan/.gradle/caches/transforms-3/0b9c903fef8d2eb2a269c36999ef4a74/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+49        android:debuggable="true"
+50        android:icon="@mipmap/ic_launcher"
+51        android:label="base_getx_flutter" >
+52        <activity
+53            android:name="com.example.base_getx_flutter.MainActivity"
+54            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+55            android:exported="true"
+56            android:hardwareAccelerated="true"
+57            android:launchMode="singleTop"
+58            android:theme="@style/LaunchTheme"
+59            android:windowSoftInputMode="adjustResize" >
+60
+61            <!--
+62                 Specifies an Android theme to apply to this Activity as soon as
+63                 the Android process has started. This theme is visible to the user
+64                 while the Flutter UI initializes. After that, this theme continues
+65                 to determine the Window background behind the Flutter UI.
+66            -->
+67            <meta-data
+68                android:name="io.flutter.embedding.android.NormalTheme"
+69                android:resource="@style/NormalTheme" />
+70
+71            <intent-filter>
+72                <action android:name="android.intent.action.MAIN" />
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+75            </intent-filter>
+76        </activity>
+77        <!--
+78             Don't delete the meta-data below.
+79             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+80        -->
+81        <meta-data
+82            android:name="flutterEmbedding"
+83            android:value="2" />
+84
+85        <activity
+85-->[:url_launcher_android] /Users/trandan/AndroidStudioProjects/base_getx_flutter/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+86            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+86-->[:url_launcher_android] /Users/trandan/AndroidStudioProjects/base_getx_flutter/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+87            android:exported="false"
+87-->[:url_launcher_android] /Users/trandan/AndroidStudioProjects/base_getx_flutter/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+88            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+88-->[:url_launcher_android] /Users/trandan/AndroidStudioProjects/base_getx_flutter/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+89
+90        <provider
+90-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:29:9-37:20
+91            android:name="androidx.startup.InitializationProvider"
+91-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:30:13-67
+92            android:authorities="com.example.base_getx_flutter.androidx-startup"
+92-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:31:13-68
+93            android:exported="false" >
+93-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:32:13-37
+94            <meta-data
+94-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:34:13-36:52
+95                android:name="androidx.work.WorkManagerInitializer"
+95-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:35:17-68
+96                android:value="androidx.startup" />
+96-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:36:17-49
+97        </provider>
+98
+99        <service
+99-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:39:9-45:35
+100            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+100-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:40:13-88
+101            android:directBootAware="false"
+101-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:41:13-44
+102            android:enabled="@bool/enable_system_alarm_service_default"
+102-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:42:13-72
+103            android:exported="false" />
+103-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:43:13-37
+104        <service
+104-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:46:9-52:35
+105            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+105-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:47:13-84
+106            android:directBootAware="false"
+106-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:48:13-44
+107            android:enabled="@bool/enable_system_job_service_default"
+107-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:49:13-70
+108            android:exported="true"
+108-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:50:13-36
+109            android:permission="android.permission.BIND_JOB_SERVICE" />
+109-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:51:13-69
+110        <service
+110-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:53:9-59:35
+111            android:name="androidx.work.impl.foreground.SystemForegroundService"
+111-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:54:13-81
+112            android:directBootAware="false"
+112-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:55:13-44
+113            android:enabled="@bool/enable_system_foreground_service_default"
+113-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:56:13-77
+114            android:exported="false" />
+114-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:57:13-37
+115
+116        <receiver
+116-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:61:9-66:35
+117            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+117-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:62:13-88
+118            android:directBootAware="false"
+118-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:63:13-44
+119            android:enabled="true"
+119-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:64:13-35
+120            android:exported="false" />
+120-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:65:13-37
+121        <receiver
+121-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:67:9-77:20
+122            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+122-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:68:13-106
+123            android:directBootAware="false"
+123-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:69:13-44
+124            android:enabled="false"
+124-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:70:13-36
+125            android:exported="false" >
+125-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:71:13-37
+126            <intent-filter>
+126-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:73:13-76:29
+127                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+127-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:17-87
+127-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:25-84
+128                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+128-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:17-90
+128-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:25-87
+129            </intent-filter>
+130        </receiver>
+131        <receiver
+131-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:78:9-88:20
+132            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+132-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:79:13-104
+133            android:directBootAware="false"
+133-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:80:13-44
+134            android:enabled="false"
+134-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:81:13-36
+135            android:exported="false" >
+135-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:82:13-37
+136            <intent-filter>
+136-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:84:13-87:29
+137                <action android:name="android.intent.action.BATTERY_OKAY" />
+137-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:17-77
+137-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:25-74
+138                <action android:name="android.intent.action.BATTERY_LOW" />
+138-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:17-76
+138-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:25-73
+139            </intent-filter>
+140        </receiver>
+141        <receiver
+141-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:89:9-99:20
+142            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+142-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:90:13-104
+143            android:directBootAware="false"
+143-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:91:13-44
+144            android:enabled="false"
+144-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:92:13-36
+145            android:exported="false" >
+145-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:93:13-37
+146            <intent-filter>
+146-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:95:13-98:29
+147                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+147-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:17-83
+147-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:25-80
+148                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+148-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:17-82
+148-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:25-79
+149            </intent-filter>
+150        </receiver>
+151        <receiver
+151-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:100:9-109:20
+152            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+152-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:101:13-103
+153            android:directBootAware="false"
+153-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:102:13-44
+154            android:enabled="false"
+154-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:103:13-36
+155            android:exported="false" >
+155-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:104:13-37
+156            <intent-filter>
+156-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:106:13-108:29
+157                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+157-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:17-79
+157-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:25-76
+158            </intent-filter>
+159        </receiver>
+160        <receiver
+160-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:110:9-121:20
+161            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+161-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:111:13-88
+162            android:directBootAware="false"
+162-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:112:13-44
+163            android:enabled="false"
+163-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:113:13-36
+164            android:exported="false" >
+164-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:114:13-37
+165            <intent-filter>
+165-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:116:13-120:29
+166                <action android:name="android.intent.action.BOOT_COMPLETED" />
+166-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:117:17-79
+166-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:117:25-76
+167                <action android:name="android.intent.action.TIME_SET" />
+167-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:17-73
+167-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:25-70
+168                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+168-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:17-81
+168-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:25-78
+169            </intent-filter>
+170        </receiver>
+171        <receiver
+171-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:122:9-131:20
+172            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+172-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:123:13-99
+173            android:directBootAware="false"
+173-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:124:13-44
+174            android:enabled="@bool/enable_system_alarm_service_default"
+174-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:125:13-72
+175            android:exported="false" >
+175-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:126:13-37
+176            <intent-filter>
+176-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:128:13-130:29
+177                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+177-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:17-98
+177-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:25-95
+178            </intent-filter>
+179        </receiver>
+180        <receiver
+180-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:132:9-142:20
+181            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+181-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:133:13-78
+182            android:directBootAware="false"
+182-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:134:13-44
+183            android:enabled="true"
+183-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:135:13-35
+184            android:exported="true"
+184-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:136:13-36
+185            android:permission="android.permission.DUMP" >
+185-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:137:13-57
+186            <intent-filter>
+186-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:139:13-141:29
+187                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+187-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:17-88
+187-->[androidx.work:work-runtime:2.8.1] /Users/trandan/.gradle/caches/transforms-3/ba15259c75ceb233b2ed438badc1c902/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:25-85
+188            </intent-filter>
+189        </receiver>
+190
+191        <service
+191-->[androidx.room:room-runtime:2.5.0] /Users/trandan/.gradle/caches/transforms-3/534740f5fe9a2ae174052dbfc3a4f44f/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+192            android:name="androidx.room.MultiInstanceInvalidationService"
+192-->[androidx.room:room-runtime:2.5.0] /Users/trandan/.gradle/caches/transforms-3/534740f5fe9a2ae174052dbfc3a4f44f/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+193            android:directBootAware="true"
+193-->[androidx.room:room-runtime:2.5.0] /Users/trandan/.gradle/caches/transforms-3/534740f5fe9a2ae174052dbfc3a4f44f/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+194            android:exported="false" />
+194-->[androidx.room:room-runtime:2.5.0] /Users/trandan/.gradle/caches/transforms-3/534740f5fe9a2ae174052dbfc3a4f44f/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+195
+196        <uses-library
+196-->[androidx.window:window:1.0.0-beta04] /Users/trandan/.gradle/caches/transforms-3/032f4dff274e516110d9363a9793a3e3/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+197            android:name="androidx.window.extensions"
+197-->[androidx.window:window:1.0.0-beta04] /Users/trandan/.gradle/caches/transforms-3/032f4dff274e516110d9363a9793a3e3/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+198            android:required="false" />
+198-->[androidx.window:window:1.0.0-beta04] /Users/trandan/.gradle/caches/transforms-3/032f4dff274e516110d9363a9793a3e3/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+199        <uses-library
+199-->[androidx.window:window:1.0.0-beta04] /Users/trandan/.gradle/caches/transforms-3/032f4dff274e516110d9363a9793a3e3/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+200            android:name="androidx.window.sidecar"
+200-->[androidx.window:window:1.0.0-beta04] /Users/trandan/.gradle/caches/transforms-3/032f4dff274e516110d9363a9793a3e3/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+201            android:required="false" />
+201-->[androidx.window:window:1.0.0-beta04] /Users/trandan/.gradle/caches/transforms-3/032f4dff274e516110d9363a9793a3e3/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+202    </application>
+203
+204</manifest>

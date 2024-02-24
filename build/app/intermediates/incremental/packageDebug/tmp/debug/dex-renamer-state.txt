@@ -1,0 +1,4 @@
+#Sun Feb 25 02:47:06 ICT 2024
+base.0=/Users/trandan/AndroidStudioProjects/base_getx_flutter/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
