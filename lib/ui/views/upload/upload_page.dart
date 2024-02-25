@@ -14,7 +14,7 @@ class UploadPage extends StatelessWidget {
       margin: EdgeInsets.only(top: AppDimens.H_5),
       child: TextWidget(
         text: "上傳收據",
-        fontSize: AppDimens.TEXT_SIZE_TITLE_30,
+        fontSize: AppDimens.TEXT_SIZE_24,
         color: AppColors.main_color,
       ),
     );

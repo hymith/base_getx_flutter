@@ -1,5 +1,4 @@
 class AppString {
-
   //Home page
   static const AUTHENTICATION_FAILED = "Authentication failed.";
   static const TURN_OFF_BEIOMETRICS_LOGIN_INFO = "您已關閉生物識別功能，請先使用 OTP 登錄以開啟!";
@@ -11,7 +10,8 @@ class AppString {
   static const TEXT_SENT_CODE_TO = "我們已把登錄驗證碼發送到";
   static const TEXT_CODE_HAS_BEEN_SENT = "驗證碼短信已發送";
   static const TEXT_OK = "好的";
-  static const TEXT_CAUSION_LOGIN_BY_BIOMETRICS = "首次登錄，請先用你的手機號碼來登錄，然後再激活面容 ID。";
+  static const TEXT_CAUSION_LOGIN_BY_BIOMETRICS =
+      "首次登錄，請先用你的手機號碼來登錄，然後再激活面容 ID。";
   static const TEXT_FACE_ID_NOT_BEEN_ACTIVE = "面容 ID 尚未激活";
 
 //  OTP page
@@ -49,7 +49,8 @@ class AppString {
 
 //  Home Setting Page
   static const KEEP_SECRET = "保密";
-  static const NOT_SUPPORT_FINGER_PRINT = "The device is not support Finger Print!";
+  static const NOT_SUPPORT_FINGER_PRINT =
+      "The device is not support Finger Print!";
 
 //  Notification Home Page
   static const NOTIFY = "通知";
@@ -79,7 +80,8 @@ class AppString {
   static const ALLOW_ACCESS_CONTACT = "允許訪問通訊錄";
   static const WE_NEED_REQUEST_PERMISSION = "我們需要您的許可才能訪問您的\n通訊錄";
   static const ALLOW_ACCESS = "允許訪問";
-  static const TEXT_PERMISSION_DENIED = "You has denied permission contact, You must go to setting in your phone to accept this permission!";
+  static const TEXT_PERMISSION_DENIED =
+      "You has denied permission contact, You must go to setting in your phone to accept this permission!";
   static const NOT_ALLOWED = "不允許";
 
 //  Referral Page
@@ -106,4 +108,6 @@ class AppString {
   static const REGISTER_TITLE = "登记";
   static const GENDER = "性别";
 
+//   Example Text
+  static const PHONE_NUMBER_EX = "Phone number";
 }

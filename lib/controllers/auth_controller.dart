@@ -9,7 +9,6 @@ class AuthController extends GetxController implements GetxService {
 
   bool _isLoading = false;
   bool get isLoading => _isLoading;
-  String token = "";
 
   void saveUserToken(String token) {
     authRepo.saveUserToken(token);
@@ -17,7 +16,6 @@ class AuthController extends GetxController implements GetxService {
 
   Future<String> getUserToken() async {
     final userToken = await authRepo.getUserToken();
-    token = userToken;
     return userToken;
   }
 }

@@ -13,7 +13,7 @@ class BankPage extends StatelessWidget {
       alignment: Alignment.center,
       child: TextWidget(
         text: "Bank Page",
-        fontSize: AppDimens.TEXT_SIZE_TITLE_30,
+        fontSize: AppDimens.TEXT_SIZE_24,
         color: AppColors.main_color,
       ),
     );

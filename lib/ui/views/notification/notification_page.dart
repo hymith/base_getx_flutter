@@ -13,7 +13,7 @@ class NotificationPage extends StatelessWidget {
       alignment: Alignment.center,
       child: TextWidget(
         text: "Notification Page",
-        fontSize: AppDimens.TEXT_SIZE_TITLE_30,
+        fontSize: AppDimens.TEXT_SIZE_24,
         color: AppColors.main_color,
       ),
     );
